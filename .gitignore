@@ -1,0 +1,76 @@
+# ───────────────────────────────
+# Python
+# ───────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+
+# ───────────────────────────────
+# Virtual Environments
+# ───────────────────────────────
+venv/
+env/
+ENV/
+.venv/
+.env/
+env.bak/
+venv.bak/
+
+# ───────────────────────────────
+# Streamlit
+# ───────────────────────────────
+.streamlit/secrets.toml
+
+# ───────────────────────────────
+# Environment / Secrets
+# ───────────────────────────────
+.env
+*.env
+secrets.toml
+
+# ───────────────────────────────
+# Generated Output (your app's exports)
+# ───────────────────────────────
+*.zip
+output/
+generated/
+
+# ───────────────────────────────
+# Jupyter / Notebooks
+# ───────────────────────────────
+.ipynb_checkpoints/
+
+# ───────────────────────────────
+# IDEs & Editors
+# ───────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ───────────────────────────────
+# OS Files
+# ───────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ───────────────────────────────
+# Logs & Cache
+# ───────────────────────────────
+*.log
+.cache/
